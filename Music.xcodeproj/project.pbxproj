@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF02FB6628D2F38B00470A95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02FB6528D2F38B00470A95 /* AppDelegate.swift */; };
+		EF02FB6828D2F38B00470A95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02FB6728D2F38B00470A95 /* SceneDelegate.swift */; };
+		EF02FB6A28D2F38B00470A95 /* MusicListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02FB6928D2F38B00470A95 /* MusicListViewController.swift */; };
+		EF02FB6D28D2F38B00470A95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF02FB6B28D2F38B00470A95 /* Main.storyboard */; };
+		EF02FB6F28D2F39000470A95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF02FB6E28D2F39000470A95 /* Assets.xcassets */; };
+		EF02FB7228D2F39000470A95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF02FB7028D2F39000470A95 /* LaunchScreen.storyboard */; };
+		EF02FB7D28D2F39000470A95 /* MusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02FB7C28D2F39000470A95 /* MusicTests.swift */; };
+		EF02FB8728D2F39000470A95 /* MusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02FB8628D2F39000470A95 /* MusicUITests.swift */; };
+		EF02FB8928D2F39000470A95 /* MusicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02FB8828D2F39000470A95 /* MusicUITestsLaunchTests.swift */; };
+		EF02FBB128D2F3CB00470A95 /* KHAAB __ AKHIL __ PARMISH VERMA __ NEW PUNJABI SONG 2018 __ CROWN RECORDS __(MP3_320K).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF02FB9628D2F3CB00470A95 /* KHAAB __ AKHIL __ PARMISH VERMA __ NEW PUNJABI SONG 2018 __ CROWN RECORDS __(MP3_320K).mp3 */; };
+		EF02FBB228D2F3CB00470A95 /* Tasbih _ Ayisha Abdul Basith(MP3_160K).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF02FB9728D2F3CB00470A95 /* Tasbih _ Ayisha Abdul Basith(MP3_160K).mp3 */; };
+		EF02FBB328D2F3CB00470A95 /* LAGDI LAHORE DI (8D AUDIO) - Street Dancer 3D _ Guru Randhawa_ Tulsi Kumar _ HQ(MP3_320K).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF02FB9828D2F3CB00470A95 /* LAGDI LAHORE DI (8D AUDIO) - Street Dancer 3D _ Guru Randhawa_ Tulsi Kumar _ HQ(MP3_320K).mp3 */; };
+		EF02FBB428D2F3CB00470A95 /* JAB TAK Full Video _ M.S. DHONI -THE UNTOLD STORY _ Armaan Malik_ Amaal Mallik _Sushant Singh Rajput(MP3_160K).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF02FB9928D2F3CB00470A95 /* JAB TAK Full Video _ M.S. DHONI -THE UNTOLD STORY _ Armaan Malik_ Amaal Mallik _Sushant Singh Rajput(MP3_160K).mp3 */; };
+		EF02FBB628D2F3CB00470A95 /* Gal Karke 10D Audio Song _ Popular Punjabi Song(MP3_320K).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF02FB9B28D2F3CB00470A95 /* Gal Karke 10D Audio Song _ Popular Punjabi Song(MP3_320K).mp3 */; };
+		EF02FBB728D2F3CB00470A95 /* Zindagi Haseen - Pav Dharia ( Official Video ) _ Vicky Sandhu _ Latest Punjabi Songs 2021 _ Lokdhun(MP3_128K).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF02FB9C28D2F3CB00470A95 /* Zindagi Haseen - Pav Dharia ( Official Video ) _ Vicky Sandhu _ Latest Punjabi Songs 2021 _ Lokdhun(MP3_128K).mp3 */; };
+		EF02FBB828D2F3CB00470A95 /* Parshawan - Harnoor (Official Video) Gifty _ JayB Singh _ Legacy Records _ Latest Punjabi Song 2021(MP3_320K).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF02FB9D28D2F3CB00470A95 /* Parshawan - Harnoor (Official Video) Gifty _ JayB Singh _ Legacy Records _ Latest Punjabi Song 2021(MP3_320K).mp3 */; };
+		EF02FBB928D2F3CB00470A95 /* Thoda Thoda Pyar Hua Tumse _ College Crush Love Story _ Hindi Songs _ Teri Nazar Ne Ye Kya Kar Diya(MP3_320K).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF02FB9E28D2F3CB00470A95 /* Thoda Thoda Pyar Hua Tumse _ College Crush Love Story _ Hindi Songs _ Teri Nazar Ne Ye Kya Kar Diya(MP3_320K).mp3 */; };
+		EF02FBBA28D2F3CB00470A95 /* Sun Saathiya - Full Song - Disney_s ABCD 2 _ Varun Dhawan - Shraddha Kapoor _ Sachin - Jigar(MP3_320K).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF02FB9F28D2F3CB00470A95 /* Sun Saathiya - Full Song - Disney_s ABCD 2 _ Varun Dhawan - Shraddha Kapoor _ Sachin - Jigar(MP3_320K).mp3 */; };
+		EF02FBBB28D2F3CB00470A95 /* Childhood (Hindi Version) - Anshit ft. _Suffeji _ Rauf _ Faik _ Teri Yaad Ay Ay Ay Ay(MP3_160K).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF02FBA028D2F3CB00470A95 /* Childhood (Hindi Version) - Anshit ft. _Suffeji _ Rauf _ Faik _ Teri Yaad Ay Ay Ay Ay(MP3_160K).mp3 */; };
+		EF02FBBC28D2F3CB00470A95 /* Ya Rabbana Irhamlana(MP3_160K).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF02FBA128D2F3CB00470A95 /* Ya Rabbana Irhamlana(MP3_160K).mp3 */; };
+		EF02FBBD28D2F3CB00470A95 /* Sohne Lagde (Official Video) Sidhu Moose Wala ft The PropheC _ Latest Punjabi Songs 2019(MP3_320K).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF02FBA228D2F3CB00470A95 /* Sohne Lagde (Official Video) Sidhu Moose Wala ft The PropheC _ Latest Punjabi Songs 2019(MP3_320K).mp3 */; };
+		EF02FBBF28D2F3CB00470A95 /* Haye Tauba (Official Video) _ Shipra Goyal _ Parmish Verma_ Nirmaan _ Enzo_ Latest Punjabi songs2020(MP3_128K).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF02FBA428D2F3CB00470A95 /* Haye Tauba (Official Video) _ Shipra Goyal _ Parmish Verma_ Nirmaan _ Enzo_ Latest Punjabi songs2020(MP3_128K).mp3 */; };
+		EF02FBC028D2F3CB00470A95 /* Dil Ko Karar Aaya  - Unplugged Version The Superkot Ltd _ Neha Kakkar _ YasserDesai(MP3_128K).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF02FBA528D2F3CB00470A95 /* Dil Ko Karar Aaya  - Unplugged Version The Superkot Ltd _ Neha Kakkar _ YasserDesai(MP3_128K).mp3 */; };
+		EF02FBC128D2F3CB00470A95 /* Ajj Kal Ve (Full Video) Barbie Maan _ Sidhu Moose Wala _ Preet Hundal _ Latest Punjabi Songs 2021(MP3_320K).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF02FBA628D2F3CB00470A95 /* Ajj Kal Ve (Full Video) Barbie Maan _ Sidhu Moose Wala _ Preet Hundal _ Latest Punjabi Songs 2021(MP3_320K).mp3 */; };
+		EF02FBC228D2F3CB00470A95 /* Moonlight - Harnoor _ MXRCI _ New Punjabi Song 2020 _ Latest Punjabi song 2020 _ Jatt Life Studios(MP3_320K).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF02FBA728D2F3CB00470A95 /* Moonlight - Harnoor _ MXRCI _ New Punjabi Song 2020 _ Latest Punjabi song 2020 _ Jatt Life Studios(MP3_320K).mp3 */; };
+		EF02FBC328D2F3CB00470A95 /* Wah Sangtan   ShafaUllah Khan Rokhri Old Saraiki Song   Super Production   YouTube(MP3_128K).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF02FBA828D2F3CB00470A95 /* Wah Sangtan   ShafaUllah Khan Rokhri Old Saraiki Song   Super Production   YouTube(MP3_128K).mp3 */; };
+		EF02FBC428D2F3CB00470A95 /* Waalian Lyrics - Harnoor _ Gifty _ The Kidd _ Latest Punjabi Songs 2020(MP3_320K).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF02FBA928D2F3CB00470A95 /* Waalian Lyrics - Harnoor _ Gifty _ The Kidd _ Latest Punjabi Songs 2020(MP3_320K).mp3 */; };
+		EF02FBC528D2F3CB00470A95 /* Humsafar (Full Video)  _ Varun _ Alia Bhatt _ Akhil Sachdeva _ _Badrinath Ki Dulhania_(MP3_320K).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF02FBAA28D2F3CB00470A95 /* Humsafar (Full Video)  _ Varun _ Alia Bhatt _ Akhil Sachdeva _ _Badrinath Ki Dulhania_(MP3_320K).mp3 */; };
+		EF02FBC628D2F3CB00470A95 /* Rabba pura mera ek armaan kar de [Bass Boosted] Latest Punjabi Song(MP3_320K).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF02FBAB28D2F3CB00470A95 /* Rabba pura mera ek armaan kar de [Bass Boosted] Latest Punjabi Song(MP3_320K).mp3 */; };
+		EF02FBC728D2F3CB00470A95 /* Dhol Mahya _ Talib Hussain Dard_(MP3_128K).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF02FBAC28D2F3CB00470A95 /* Dhol Mahya _ Talib Hussain Dard_(MP3_128K).mp3 */; };
+		EF02FBC828D2F3CB00470A95 /* Hasi Ban Gaye Full Lyrics (Male Version) _  Hamari Adhuri Kahani _ Ami Mishra _ Emraan _ Vidya B(MP3_320K).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF02FBAD28D2F3CB00470A95 /* Hasi Ban Gaye Full Lyrics (Male Version) _  Hamari Adhuri Kahani _ Ami Mishra _ Emraan _ Vidya B(MP3_320K).mp3 */; };
+		EF02FBC928D2F3CB00470A95 /* Mahi Tan Mera Phulan da Shoqi _ Mansoor Ali Malangi _mahi tu mera phullan da shonki _ khan charha(MP3_128K).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF02FBAE28D2F3CB00470A95 /* Mahi Tan Mera Phulan da Shoqi _ Mansoor Ali Malangi _mahi tu mera phullan da shonki _ khan charha(MP3_128K).mp3 */; };
+		EF02FBCA28D2F3CB00470A95 /* Chan Vekhya - Harnoor _ Yeah Proof _Latest Punjabi Song 2021 _ New Punjabi Song 2021 _(MP3_320K).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF02FBAF28D2F3CB00470A95 /* Chan Vekhya - Harnoor _ Yeah Proof _Latest Punjabi Song 2021 _ New Punjabi Song 2021 _(MP3_320K).mp3 */; };
+		EF02FBCB28D2F3CB00470A95 /* Talib Hussain Dard _ Sanu Jag Te Aasra Tera Te Kise Hor da(MP3_128K).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF02FBB028D2F3CB00470A95 /* Talib Hussain Dard _ Sanu Jag Te Aasra Tera Te Kise Hor da(MP3_128K).mp3 */; };
+		EF02FBD428D2F9CC00470A95 /* MusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02FBD228D2F9CC00470A95 /* MusicTableViewCell.swift */; };
+		EF02FBD528D2F9CC00470A95 /* MusicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF02FBD328D2F9CC00470A95 /* MusicTableViewCell.xib */; };
+		EF02FBD728D2FED400470A95 /* MusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02FBD628D2FED400470A95 /* MusicModel.swift */; };
+		EF02FBDB28D3312000470A95 /* MusicPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02FBDA28D3312000470A95 /* MusicPlayerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF02FB7928D2F39000470A95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF02FB5A28D2F38B00470A95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF02FB6128D2F38B00470A95;
+			remoteInfo = Music;
+		};
+		EF02FB8328D2F39000470A95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF02FB5A28D2F38B00470A95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF02FB6128D2F38B00470A95;
+			remoteInfo = Music;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF02FB6228D2F38B00470A95 /* Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Music.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF02FB6528D2F38B00470A95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF02FB6728D2F38B00470A95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EF02FB6928D2F38B00470A95 /* MusicListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListViewController.swift; sourceTree = "<group>"; };
+		EF02FB6C28D2F38B00470A95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF02FB6E28D2F39000470A95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF02FB7128D2F39000470A95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF02FB7328D2F39000470A95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF02FB7828D2F39000470A95 /* MusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF02FB7C28D2F39000470A95 /* MusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTests.swift; sourceTree = "<group>"; };
+		EF02FB8228D2F39000470A95 /* MusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF02FB8628D2F39000470A95 /* MusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicUITests.swift; sourceTree = "<group>"; };
+		EF02FB8828D2F39000470A95 /* MusicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EF02FB9628D2F3CB00470A95 /* KHAAB __ AKHIL __ PARMISH VERMA __ NEW PUNJABI SONG 2018 __ CROWN RECORDS __(MP3_320K).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "KHAAB __ AKHIL __ PARMISH VERMA __ NEW PUNJABI SONG 2018 __ CROWN RECORDS __(MP3_320K).mp3"; sourceTree = "<group>"; };
+		EF02FB9728D2F3CB00470A95 /* Tasbih _ Ayisha Abdul Basith(MP3_160K).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tasbih _ Ayisha Abdul Basith(MP3_160K).mp3"; sourceTree = "<group>"; };
+		EF02FB9828D2F3CB00470A95 /* LAGDI LAHORE DI (8D AUDIO) - Street Dancer 3D _ Guru Randhawa_ Tulsi Kumar _ HQ(MP3_320K).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "LAGDI LAHORE DI (8D AUDIO) - Street Dancer 3D _ Guru Randhawa_ Tulsi Kumar _ HQ(MP3_320K).mp3"; sourceTree = "<group>"; };
+		EF02FB9928D2F3CB00470A95 /* JAB TAK Full Video _ M.S. DHONI -THE UNTOLD STORY _ Armaan Malik_ Amaal Mallik _Sushant Singh Rajput(MP3_160K).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "JAB TAK Full Video _ M.S. DHONI -THE UNTOLD STORY _ Armaan Malik_ Amaal Mallik _Sushant Singh Rajput(MP3_160K).mp3"; sourceTree = "<group>"; };
+		EF02FB9B28D2F3CB00470A95 /* Gal Karke 10D Audio Song _ Popular Punjabi Song(MP3_320K).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Gal Karke 10D Audio Song _ Popular Punjabi Song(MP3_320K).mp3"; sourceTree = "<group>"; };
+		EF02FB9C28D2F3CB00470A95 /* Zindagi Haseen - Pav Dharia ( Official Video ) _ Vicky Sandhu _ Latest Punjabi Songs 2021 _ Lokdhun(MP3_128K).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Zindagi Haseen - Pav Dharia ( Official Video ) _ Vicky Sandhu _ Latest Punjabi Songs 2021 _ Lokdhun(MP3_128K).mp3"; sourceTree = "<group>"; };
+		EF02FB9D28D2F3CB00470A95 /* Parshawan - Harnoor (Official Video) Gifty _ JayB Singh _ Legacy Records _ Latest Punjabi Song 2021(MP3_320K).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Parshawan - Harnoor (Official Video) Gifty _ JayB Singh _ Legacy Records _ Latest Punjabi Song 2021(MP3_320K).mp3"; sourceTree = "<group>"; };
+		EF02FB9E28D2F3CB00470A95 /* Thoda Thoda Pyar Hua Tumse _ College Crush Love Story _ Hindi Songs _ Teri Nazar Ne Ye Kya Kar Diya(MP3_320K).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Thoda Thoda Pyar Hua Tumse _ College Crush Love Story _ Hindi Songs _ Teri Nazar Ne Ye Kya Kar Diya(MP3_320K).mp3"; sourceTree = "<group>"; };
+		EF02FB9F28D2F3CB00470A95 /* Sun Saathiya - Full Song - Disney_s ABCD 2 _ Varun Dhawan - Shraddha Kapoor _ Sachin - Jigar(MP3_320K).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sun Saathiya - Full Song - Disney_s ABCD 2 _ Varun Dhawan - Shraddha Kapoor _ Sachin - Jigar(MP3_320K).mp3"; sourceTree = "<group>"; };
+		EF02FBA028D2F3CB00470A95 /* Childhood (Hindi Version) - Anshit ft. _Suffeji _ Rauf _ Faik _ Teri Yaad Ay Ay Ay Ay(MP3_160K).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Childhood (Hindi Version) - Anshit ft. _Suffeji _ Rauf _ Faik _ Teri Yaad Ay Ay Ay Ay(MP3_160K).mp3"; sourceTree = "<group>"; };
+		EF02FBA128D2F3CB00470A95 /* Ya Rabbana Irhamlana(MP3_160K).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ya Rabbana Irhamlana(MP3_160K).mp3"; sourceTree = "<group>"; };
+		EF02FBA228D2F3CB00470A95 /* Sohne Lagde (Official Video) Sidhu Moose Wala ft The PropheC _ Latest Punjabi Songs 2019(MP3_320K).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sohne Lagde (Official Video) Sidhu Moose Wala ft The PropheC _ Latest Punjabi Songs 2019(MP3_320K).mp3"; sourceTree = "<group>"; };
+		EF02FBA428D2F3CB00470A95 /* Haye Tauba (Official Video) _ Shipra Goyal _ Parmish Verma_ Nirmaan _ Enzo_ Latest Punjabi songs2020(MP3_128K).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Haye Tauba (Official Video) _ Shipra Goyal _ Parmish Verma_ Nirmaan _ Enzo_ Latest Punjabi songs2020(MP3_128K).mp3"; sourceTree = "<group>"; };
+		EF02FBA528D2F3CB00470A95 /* Dil Ko Karar Aaya  - Unplugged Version The Superkot Ltd _ Neha Kakkar _ YasserDesai(MP3_128K).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dil Ko Karar Aaya  - Unplugged Version The Superkot Ltd _ Neha Kakkar _ YasserDesai(MP3_128K).mp3"; sourceTree = "<group>"; };
+		EF02FBA628D2F3CB00470A95 /* Ajj Kal Ve (Full Video) Barbie Maan _ Sidhu Moose Wala _ Preet Hundal _ Latest Punjabi Songs 2021(MP3_320K).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ajj Kal Ve (Full Video) Barbie Maan _ Sidhu Moose Wala _ Preet Hundal _ Latest Punjabi Songs 2021(MP3_320K).mp3"; sourceTree = "<group>"; };
+		EF02FBA728D2F3CB00470A95 /* Moonlight - Harnoor _ MXRCI _ New Punjabi Song 2020 _ Latest Punjabi song 2020 _ Jatt Life Studios(MP3_320K).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Moonlight - Harnoor _ MXRCI _ New Punjabi Song 2020 _ Latest Punjabi song 2020 _ Jatt Life Studios(MP3_320K).mp3"; sourceTree = "<group>"; };
+		EF02FBA828D2F3CB00470A95 /* Wah Sangtan   ShafaUllah Khan Rokhri Old Saraiki Song   Super Production   YouTube(MP3_128K).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Wah Sangtan   ShafaUllah Khan Rokhri Old Saraiki Song   Super Production   YouTube(MP3_128K).mp3"; sourceTree = "<group>"; };
+		EF02FBA928D2F3CB00470A95 /* Waalian Lyrics - Harnoor _ Gifty _ The Kidd _ Latest Punjabi Songs 2020(MP3_320K).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Waalian Lyrics - Harnoor _ Gifty _ The Kidd _ Latest Punjabi Songs 2020(MP3_320K).mp3"; sourceTree = "<group>"; };
+		EF02FBAA28D2F3CB00470A95 /* Humsafar (Full Video)  _ Varun _ Alia Bhatt _ Akhil Sachdeva _ _Badrinath Ki Dulhania_(MP3_320K).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Humsafar (Full Video)  _ Varun _ Alia Bhatt _ Akhil Sachdeva _ _Badrinath Ki Dulhania_(MP3_320K).mp3"; sourceTree = "<group>"; };
+		EF02FBAB28D2F3CB00470A95 /* Rabba pura mera ek armaan kar de [Bass Boosted] Latest Punjabi Song(MP3_320K).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rabba pura mera ek armaan kar de [Bass Boosted] Latest Punjabi Song(MP3_320K).mp3"; sourceTree = "<group>"; };
+		EF02FBAC28D2F3CB00470A95 /* Dhol Mahya _ Talib Hussain Dard_(MP3_128K).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dhol Mahya _ Talib Hussain Dard_(MP3_128K).mp3"; sourceTree = "<group>"; };
+		EF02FBAD28D2F3CB00470A95 /* Hasi Ban Gaye Full Lyrics (Male Version) _  Hamari Adhuri Kahani _ Ami Mishra _ Emraan _ Vidya B(MP3_320K).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hasi Ban Gaye Full Lyrics (Male Version) _  Hamari Adhuri Kahani _ Ami Mishra _ Emraan _ Vidya B(MP3_320K).mp3"; sourceTree = "<group>"; };
+		EF02FBAE28D2F3CB00470A95 /* Mahi Tan Mera Phulan da Shoqi _ Mansoor Ali Malangi _mahi tu mera phullan da shonki _ khan charha(MP3_128K).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mahi Tan Mera Phulan da Shoqi _ Mansoor Ali Malangi _mahi tu mera phullan da shonki _ khan charha(MP3_128K).mp3"; sourceTree = "<group>"; };
+		EF02FBAF28D2F3CB00470A95 /* Chan Vekhya - Harnoor _ Yeah Proof _Latest Punjabi Song 2021 _ New Punjabi Song 2021 _(MP3_320K).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Chan Vekhya - Harnoor _ Yeah Proof _Latest Punjabi Song 2021 _ New Punjabi Song 2021 _(MP3_320K).mp3"; sourceTree = "<group>"; };
+		EF02FBB028D2F3CB00470A95 /* Talib Hussain Dard _ Sanu Jag Te Aasra Tera Te Kise Hor da(MP3_128K).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Talib Hussain Dard _ Sanu Jag Te Aasra Tera Te Kise Hor da(MP3_128K).mp3"; sourceTree = "<group>"; };
+		EF02FBD228D2F9CC00470A95 /* MusicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTableViewCell.swift; sourceTree = "<group>"; };
+		EF02FBD328D2F9CC00470A95 /* MusicTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicTableViewCell.xib; sourceTree = "<group>"; };
+		EF02FBD628D2FED400470A95 /* MusicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicModel.swift; sourceTree = "<group>"; };
+		EF02FBDA28D3312000470A95 /* MusicPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF02FB5F28D2F38B00470A95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF02FB7528D2F39000470A95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF02FB7F28D2F39000470A95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF02FB5928D2F38B00470A95 = {
+			isa = PBXGroup;
+			children = (
+				EF02FB6428D2F38B00470A95 /* Music */,
+				EF02FB7B28D2F39000470A95 /* MusicTests */,
+				EF02FB8528D2F39000470A95 /* MusicUITests */,
+				EF02FB6328D2F38B00470A95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF02FB6328D2F38B00470A95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF02FB6228D2F38B00470A95 /* Music.app */,
+				EF02FB7828D2F39000470A95 /* MusicTests.xctest */,
+				EF02FB8228D2F39000470A95 /* MusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF02FB6428D2F38B00470A95 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				EF02FBCF28D2F40B00470A95 /* Resources */,
+				EF02FBCC28D2F3F200470A95 /* Model */,
+				EF02FBCD28D2F3F800470A95 /* View */,
+				EF02FBCE28D2F3FF00470A95 /* Controller */,
+				EF02FBD128D2F45800470A95 /* TableViewCell */,
+				EF02FB7328D2F39000470A95 /* Info.plist */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		EF02FB7B28D2F39000470A95 /* MusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF02FB7C28D2F39000470A95 /* MusicTests.swift */,
+			);
+			path = MusicTests;
+			sourceTree = "<group>";
+		};
+		EF02FB8528D2F39000470A95 /* MusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF02FB8628D2F39000470A95 /* MusicUITests.swift */,
+				EF02FB8828D2F39000470A95 /* MusicUITestsLaunchTests.swift */,
+			);
+			path = MusicUITests;
+			sourceTree = "<group>";
+		};
+		EF02FB9528D2F3CB00470A95 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				EF02FB9628D2F3CB00470A95 /* KHAAB __ AKHIL __ PARMISH VERMA __ NEW PUNJABI SONG 2018 __ CROWN RECORDS __(MP3_320K).mp3 */,
+				EF02FB9728D2F3CB00470A95 /* Tasbih _ Ayisha Abdul Basith(MP3_160K).mp3 */,
+				EF02FB9828D2F3CB00470A95 /* LAGDI LAHORE DI (8D AUDIO) - Street Dancer 3D _ Guru Randhawa_ Tulsi Kumar _ HQ(MP3_320K).mp3 */,
+				EF02FB9928D2F3CB00470A95 /* JAB TAK Full Video _ M.S. DHONI -THE UNTOLD STORY _ Armaan Malik_ Amaal Mallik _Sushant Singh Rajput(MP3_160K).mp3 */,
+				EF02FB9B28D2F3CB00470A95 /* Gal Karke 10D Audio Song _ Popular Punjabi Song(MP3_320K).mp3 */,
+				EF02FB9C28D2F3CB00470A95 /* Zindagi Haseen - Pav Dharia ( Official Video ) _ Vicky Sandhu _ Latest Punjabi Songs 2021 _ Lokdhun(MP3_128K).mp3 */,
+				EF02FB9D28D2F3CB00470A95 /* Parshawan - Harnoor (Official Video) Gifty _ JayB Singh _ Legacy Records _ Latest Punjabi Song 2021(MP3_320K).mp3 */,
+				EF02FB9E28D2F3CB00470A95 /* Thoda Thoda Pyar Hua Tumse _ College Crush Love Story _ Hindi Songs _ Teri Nazar Ne Ye Kya Kar Diya(MP3_320K).mp3 */,
+				EF02FB9F28D2F3CB00470A95 /* Sun Saathiya - Full Song - Disney_s ABCD 2 _ Varun Dhawan - Shraddha Kapoor _ Sachin - Jigar(MP3_320K).mp3 */,
+				EF02FBA028D2F3CB00470A95 /* Childhood (Hindi Version) - Anshit ft. _Suffeji _ Rauf _ Faik _ Teri Yaad Ay Ay Ay Ay(MP3_160K).mp3 */,
+				EF02FBA128D2F3CB00470A95 /* Ya Rabbana Irhamlana(MP3_160K).mp3 */,
+				EF02FBA228D2F3CB00470A95 /* Sohne Lagde (Official Video) Sidhu Moose Wala ft The PropheC _ Latest Punjabi Songs 2019(MP3_320K).mp3 */,
+				EF02FBA428D2F3CB00470A95 /* Haye Tauba (Official Video) _ Shipra Goyal _ Parmish Verma_ Nirmaan _ Enzo_ Latest Punjabi songs2020(MP3_128K).mp3 */,
+				EF02FBA528D2F3CB00470A95 /* Dil Ko Karar Aaya  - Unplugged Version The Superkot Ltd _ Neha Kakkar _ YasserDesai(MP3_128K).mp3 */,
+				EF02FBA628D2F3CB00470A95 /* Ajj Kal Ve (Full Video) Barbie Maan _ Sidhu Moose Wala _ Preet Hundal _ Latest Punjabi Songs 2021(MP3_320K).mp3 */,
+				EF02FBA728D2F3CB00470A95 /* Moonlight - Harnoor _ MXRCI _ New Punjabi Song 2020 _ Latest Punjabi song 2020 _ Jatt Life Studios(MP3_320K).mp3 */,
+				EF02FBA828D2F3CB00470A95 /* Wah Sangtan   ShafaUllah Khan Rokhri Old Saraiki Song   Super Production   YouTube(MP3_128K).mp3 */,
+				EF02FBA928D2F3CB00470A95 /* Waalian Lyrics - Harnoor _ Gifty _ The Kidd _ Latest Punjabi Songs 2020(MP3_320K).mp3 */,
+				EF02FBAA28D2F3CB00470A95 /* Humsafar (Full Video)  _ Varun _ Alia Bhatt _ Akhil Sachdeva _ _Badrinath Ki Dulhania_(MP3_320K).mp3 */,
+				EF02FBAB28D2F3CB00470A95 /* Rabba pura mera ek armaan kar de [Bass Boosted] Latest Punjabi Song(MP3_320K).mp3 */,
+				EF02FBAC28D2F3CB00470A95 /* Dhol Mahya _ Talib Hussain Dard_(MP3_128K).mp3 */,
+				EF02FBAD28D2F3CB00470A95 /* Hasi Ban Gaye Full Lyrics (Male Version) _  Hamari Adhuri Kahani _ Ami Mishra _ Emraan _ Vidya B(MP3_320K).mp3 */,
+				EF02FBAE28D2F3CB00470A95 /* Mahi Tan Mera Phulan da Shoqi _ Mansoor Ali Malangi _mahi tu mera phullan da shonki _ khan charha(MP3_128K).mp3 */,
+				EF02FBAF28D2F3CB00470A95 /* Chan Vekhya - Harnoor _ Yeah Proof _Latest Punjabi Song 2021 _ New Punjabi Song 2021 _(MP3_320K).mp3 */,
+				EF02FBB028D2F3CB00470A95 /* Talib Hussain Dard _ Sanu Jag Te Aasra Tera Te Kise Hor da(MP3_128K).mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+		EF02FBCC28D2F3F200470A95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF02FBD628D2FED400470A95 /* MusicModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF02FBCD28D2F3F800470A95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF02FBD028D2F43000470A95 /* Storyboards */,
+				EF02FB6E28D2F39000470A95 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF02FBCE28D2F3FF00470A95 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EF02FB6928D2F38B00470A95 /* MusicListViewController.swift */,
+				EF02FBDA28D3312000470A95 /* MusicPlayerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EF02FBCF28D2F40B00470A95 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF02FB9528D2F3CB00470A95 /* Songs */,
+				EF02FB6528D2F38B00470A95 /* AppDelegate.swift */,
+				EF02FB6728D2F38B00470A95 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EF02FBD028D2F43000470A95 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EF02FB6B28D2F38B00470A95 /* Main.storyboard */,
+				EF02FB7028D2F39000470A95 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		EF02FBD128D2F45800470A95 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				EF02FBD228D2F9CC00470A95 /* MusicTableViewCell.swift */,
+				EF02FBD328D2F9CC00470A95 /* MusicTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF02FB6128D2F38B00470A95 /* Music */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF02FB8C28D2F39000470A95 /* Build configuration list for PBXNativeTarget "Music" */;
+			buildPhases = (
+				EF02FB5E28D2F38B00470A95 /* Sources */,
+				EF02FB5F28D2F38B00470A95 /* Frameworks */,
+				EF02FB6028D2F38B00470A95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Music;
+			productName = Music;
+			productReference = EF02FB6228D2F38B00470A95 /* Music.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF02FB7728D2F39000470A95 /* MusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF02FB8F28D2F39000470A95 /* Build configuration list for PBXNativeTarget "MusicTests" */;
+			buildPhases = (
+				EF02FB7428D2F39000470A95 /* Sources */,
+				EF02FB7528D2F39000470A95 /* Frameworks */,
+				EF02FB7628D2F39000470A95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF02FB7A28D2F39000470A95 /* PBXTargetDependency */,
+			);
+			name = MusicTests;
+			productName = MusicTests;
+			productReference = EF02FB7828D2F39000470A95 /* MusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF02FB8128D2F39000470A95 /* MusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF02FB9228D2F39000470A95 /* Build configuration list for PBXNativeTarget "MusicUITests" */;
+			buildPhases = (
+				EF02FB7E28D2F39000470A95 /* Sources */,
+				EF02FB7F28D2F39000470A95 /* Frameworks */,
+				EF02FB8028D2F39000470A95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF02FB8428D2F39000470A95 /* PBXTargetDependency */,
+			);
+			name = MusicUITests;
+			productName = MusicUITests;
+			productReference = EF02FB8228D2F39000470A95 /* MusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF02FB5A28D2F38B00470A95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					EF02FB6128D2F38B00470A95 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					EF02FB7728D2F39000470A95 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = EF02FB6128D2F38B00470A95;
+					};
+					EF02FB8128D2F39000470A95 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = EF02FB6128D2F38B00470A95;
+					};
+				};
+			};
+			buildConfigurationList = EF02FB5D28D2F38B00470A95 /* Build configuration list for PBXProject "Music" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF02FB5928D2F38B00470A95;
+			productRefGroup = EF02FB6328D2F38B00470A95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF02FB6128D2F38B00470A95 /* Music */,
+				EF02FB7728D2F39000470A95 /* MusicTests */,
+				EF02FB8128D2F39000470A95 /* MusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF02FB6028D2F38B00470A95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF02FBC828D2F3CB00470A95 /* Hasi Ban Gaye Full Lyrics (Male Version) _  Hamari Adhuri Kahani _ Ami Mishra _ Emraan _ Vidya B(MP3_320K).mp3 in Resources */,
+				EF02FB7228D2F39000470A95 /* LaunchScreen.storyboard in Resources */,
+				EF02FBC328D2F3CB00470A95 /* Wah Sangtan   ShafaUllah Khan Rokhri Old Saraiki Song   Super Production   YouTube(MP3_128K).mp3 in Resources */,
+				EF02FBB328D2F3CB00470A95 /* LAGDI LAHORE DI (8D AUDIO) - Street Dancer 3D _ Guru Randhawa_ Tulsi Kumar _ HQ(MP3_320K).mp3 in Resources */,
+				EF02FBB128D2F3CB00470A95 /* KHAAB __ AKHIL __ PARMISH VERMA __ NEW PUNJABI SONG 2018 __ CROWN RECORDS __(MP3_320K).mp3 in Resources */,
+				EF02FBBA28D2F3CB00470A95 /* Sun Saathiya - Full Song - Disney_s ABCD 2 _ Varun Dhawan - Shraddha Kapoor _ Sachin - Jigar(MP3_320K).mp3 in Resources */,
+				EF02FBB728D2F3CB00470A95 /* Zindagi Haseen - Pav Dharia ( Official Video ) _ Vicky Sandhu _ Latest Punjabi Songs 2021 _ Lokdhun(MP3_128K).mp3 in Resources */,
+				EF02FBC628D2F3CB00470A95 /* Rabba pura mera ek armaan kar de [Bass Boosted] Latest Punjabi Song(MP3_320K).mp3 in Resources */,
+				EF02FBB828D2F3CB00470A95 /* Parshawan - Harnoor (Official Video) Gifty _ JayB Singh _ Legacy Records _ Latest Punjabi Song 2021(MP3_320K).mp3 in Resources */,
+				EF02FBC028D2F3CB00470A95 /* Dil Ko Karar Aaya  - Unplugged Version The Superkot Ltd _ Neha Kakkar _ YasserDesai(MP3_128K).mp3 in Resources */,
+				EF02FBB928D2F3CB00470A95 /* Thoda Thoda Pyar Hua Tumse _ College Crush Love Story _ Hindi Songs _ Teri Nazar Ne Ye Kya Kar Diya(MP3_320K).mp3 in Resources */,
+				EF02FBB628D2F3CB00470A95 /* Gal Karke 10D Audio Song _ Popular Punjabi Song(MP3_320K).mp3 in Resources */,
+				EF02FBB228D2F3CB00470A95 /* Tasbih _ Ayisha Abdul Basith(MP3_160K).mp3 in Resources */,
+				EF02FBC928D2F3CB00470A95 /* Mahi Tan Mera Phulan da Shoqi _ Mansoor Ali Malangi _mahi tu mera phullan da shonki _ khan charha(MP3_128K).mp3 in Resources */,
+				EF02FBCB28D2F3CB00470A95 /* Talib Hussain Dard _ Sanu Jag Te Aasra Tera Te Kise Hor da(MP3_128K).mp3 in Resources */,
+				EF02FBB428D2F3CB00470A95 /* JAB TAK Full Video _ M.S. DHONI -THE UNTOLD STORY _ Armaan Malik_ Amaal Mallik _Sushant Singh Rajput(MP3_160K).mp3 in Resources */,
+				EF02FBC728D2F3CB00470A95 /* Dhol Mahya _ Talib Hussain Dard_(MP3_128K).mp3 in Resources */,
+				EF02FBBD28D2F3CB00470A95 /* Sohne Lagde (Official Video) Sidhu Moose Wala ft The PropheC _ Latest Punjabi Songs 2019(MP3_320K).mp3 in Resources */,
+				EF02FBC228D2F3CB00470A95 /* Moonlight - Harnoor _ MXRCI _ New Punjabi Song 2020 _ Latest Punjabi song 2020 _ Jatt Life Studios(MP3_320K).mp3 in Resources */,
+				EF02FBBC28D2F3CB00470A95 /* Ya Rabbana Irhamlana(MP3_160K).mp3 in Resources */,
+				EF02FBC428D2F3CB00470A95 /* Waalian Lyrics - Harnoor _ Gifty _ The Kidd _ Latest Punjabi Songs 2020(MP3_320K).mp3 in Resources */,
+				EF02FB6F28D2F39000470A95 /* Assets.xcassets in Resources */,
+				EF02FBBF28D2F3CB00470A95 /* Haye Tauba (Official Video) _ Shipra Goyal _ Parmish Verma_ Nirmaan _ Enzo_ Latest Punjabi songs2020(MP3_128K).mp3 in Resources */,
+				EF02FBC528D2F3CB00470A95 /* Humsafar (Full Video)  _ Varun _ Alia Bhatt _ Akhil Sachdeva _ _Badrinath Ki Dulhania_(MP3_320K).mp3 in Resources */,
+				EF02FBBB28D2F3CB00470A95 /* Childhood (Hindi Version) - Anshit ft. _Suffeji _ Rauf _ Faik _ Teri Yaad Ay Ay Ay Ay(MP3_160K).mp3 in Resources */,
+				EF02FBCA28D2F3CB00470A95 /* Chan Vekhya - Harnoor _ Yeah Proof _Latest Punjabi Song 2021 _ New Punjabi Song 2021 _(MP3_320K).mp3 in Resources */,
+				EF02FBC128D2F3CB00470A95 /* Ajj Kal Ve (Full Video) Barbie Maan _ Sidhu Moose Wala _ Preet Hundal _ Latest Punjabi Songs 2021(MP3_320K).mp3 in Resources */,
+				EF02FBD528D2F9CC00470A95 /* MusicTableViewCell.xib in Resources */,
+				EF02FB6D28D2F38B00470A95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF02FB7628D2F39000470A95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF02FB8028D2F39000470A95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF02FB5E28D2F38B00470A95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF02FB6A28D2F38B00470A95 /* MusicListViewController.swift in Sources */,
+				EF02FB6628D2F38B00470A95 /* AppDelegate.swift in Sources */,
+				EF02FBDB28D3312000470A95 /* MusicPlayerViewController.swift in Sources */,
+				EF02FB6828D2F38B00470A95 /* SceneDelegate.swift in Sources */,
+				EF02FBD728D2FED400470A95 /* MusicModel.swift in Sources */,
+				EF02FBD428D2F9CC00470A95 /* MusicTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF02FB7428D2F39000470A95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF02FB7D28D2F39000470A95 /* MusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF02FB7E28D2F39000470A95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF02FB8928D2F39000470A95 /* MusicUITestsLaunchTests.swift in Sources */,
+				EF02FB8728D2F39000470A95 /* MusicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF02FB7A28D2F39000470A95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF02FB6128D2F38B00470A95 /* Music */;
+			targetProxy = EF02FB7928D2F39000470A95 /* PBXContainerItemProxy */;
+		};
+		EF02FB8428D2F39000470A95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF02FB6128D2F38B00470A95 /* Music */;
+			targetProxy = EF02FB8328D2F39000470A95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF02FB6B28D2F38B00470A95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF02FB6C28D2F38B00470A95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF02FB7028D2F39000470A95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF02FB7128D2F39000470A95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF02FB8A28D2F39000470A95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF02FB8B28D2F39000470A95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF02FB8D28D2F39000470A95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Music/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Shahzaib.Music;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF02FB8E28D2F39000470A95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Music/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Shahzaib.Music;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF02FB9028D2F39000470A95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Shahzaib.MusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Music.app/Music";
+			};
+			name = Debug;
+		};
+		EF02FB9128D2F39000470A95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Shahzaib.MusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Music.app/Music";
+			};
+			name = Release;
+		};
+		EF02FB9328D2F39000470A95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Shahzaib.MusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Music;
+			};
+			name = Debug;
+		};
+		EF02FB9428D2F39000470A95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Shahzaib.MusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Music;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF02FB5D28D2F38B00470A95 /* Build configuration list for PBXProject "Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF02FB8A28D2F39000470A95 /* Debug */,
+				EF02FB8B28D2F39000470A95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF02FB8C28D2F39000470A95 /* Build configuration list for PBXNativeTarget "Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF02FB8D28D2F39000470A95 /* Debug */,
+				EF02FB8E28D2F39000470A95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF02FB8F28D2F39000470A95 /* Build configuration list for PBXNativeTarget "MusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF02FB9028D2F39000470A95 /* Debug */,
+				EF02FB9128D2F39000470A95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF02FB9228D2F39000470A95 /* Build configuration list for PBXNativeTarget "MusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF02FB9328D2F39000470A95 /* Debug */,
+				EF02FB9428D2F39000470A95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF02FB5A28D2F38B00470A95 /* Project object */;
+}
